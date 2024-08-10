@@ -1,0 +1,19 @@
+#first{
+    margin-top:200px;
+    margin-bottom: 200px;
+}
+
+#questao
+{
+    margin-top: 400px;
+}
+
+#news
+{
+    margin-top: 400px;
+}
+
+#cardNewsOne, #cardNewsTwo, #cardNewsThree, #cardNewsFour, #cardNewsFive, #cardNewsSix, #cardNewsSeven, #cardNewsEight, #cardNewsNine
+{
+    width: 18rem;
+}
