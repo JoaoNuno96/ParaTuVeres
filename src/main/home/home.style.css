@@ -1,3 +1,8 @@
+#home hr
+{
+    border: 2px solid #FFF;
+}
+
 #first{
     margin-top:200px;
     margin-bottom: 200px;
@@ -8,12 +13,45 @@
     margin-top: 400px;
 }
 
+.my-4
+{
+    border: 1px solid #FFF !important;
+}
+
 #news
 {
     margin-top: 400px;
 }
 
+
+
 #cardNewsOne, #cardNewsTwo, #cardNewsThree, #cardNewsFour, #cardNewsFive, #cardNewsSix, #cardNewsSeven, #cardNewsEight, #cardNewsNine
 {
     width: 18rem;
+}
+
+#historiaUsers
+{
+    margin-top: 200px;
+}
+
+#comeBack
+{
+    margin-right: 110px;
+    margin-top:50px ;
+}
+
+#tableHistoria
+{
+    margin-bottom: 50px;
+}
+
+#formulario
+{
+    margin-top: 400px;
+}
+
+#forContact
+{
+    margin-top: 400px;
 }

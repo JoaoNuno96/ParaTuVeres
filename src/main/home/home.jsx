@@ -195,8 +195,7 @@ export const Home = () => {
           {/* <!-- CONJUNTO CARTOES FIM --> */}
           <div className="container text-center">
               <div className="row">
-              {/* style="margin-right: 110px; margin-top:50px ;" */}
-                <div className="col">
+                <div id="comeBack" className="col">
                   <a onClick={()=>navegacao("comecar")} className="btn btn-outline-light btn-lg">Voltar</a>
                 </div>
               </div>
@@ -206,14 +205,13 @@ export const Home = () => {
 
           {/* <!-- HISTÓRIAS DE FOFOCAS - INICIO -->  */}
           <div className="container text-center">
-            {/* style="margin-top: 400px;" */}
-            <div className="row" id="questao">
+            <div className="row" id="historiaUsers">
 
               <div className="col">
                 <h5 className="display-6 text-white" >Histórias de Utilizadores.</h5>
 
                 {/* <!-- TABELA - INICIO--> */}
-                <table className="table ">
+                <table id="tableHistoria" className="table ">
                   <thead className="table-dark">
                     <tr>
                       <th scope="col">Histórias</th>
@@ -228,7 +226,6 @@ export const Home = () => {
                     </tr>
                   </tbody>
                 </table >
-                {/* style="margin-bottom: 50px "*/}
                 {/* <!-- TABELA - FIM--> */}
               </div>
 
@@ -248,7 +245,6 @@ export const Home = () => {
           </div>
           {/* <!-- HISTÓRIAS DE FOFOCAS - FIM --> */}
 
-          {/* style="margin-top: 400px;" */}
           <div id="formulario" className="container" >
           </div>
           {/* <!-- FORMULARIO  DE FOFOCAS - INICIO --> */}
@@ -288,8 +284,7 @@ export const Home = () => {
           {/* // <!-- FORMULARIO  DE FOFOCAS - FIM --> */}
 
           {/* <!-- CONTACTOS - INICIO --> */}
-          <div className="container text-center">
-            {/* style="margin-top: 400px;" */}
+          <div id="forContact" className="container text-center">
             <div className="row" id="questao">
 
               <div className="col mt-4">

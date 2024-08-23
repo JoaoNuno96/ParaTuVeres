@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#divPrincipal
+{
+
+    align-items: center;
+}
+
+#footer
+{
+    justify-content: center;
+    margin: 0 auto;
+}
