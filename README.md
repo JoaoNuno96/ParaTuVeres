@@ -8,3 +8,4 @@ With this i chose news website, and to add a little humor i divided my website i
 
 Regarding structure, this website, was developed using react (installed with ViteJs), used bootstrap for the content, and for editing pictures (in this case i made the background image) i used Adobe Photoshop.
 
+![1](https://github.com/user-attachments/assets/e2238309-1d8d-49df-a39d-d497dcd9a468)
