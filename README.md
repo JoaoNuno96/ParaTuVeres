@@ -2,7 +2,7 @@
 
 ParaTuVeres was a project developed in a course Web & Mobile Developer, in Cesae - Porto.
 It was suggested that we developed an website of one of the following themes: kids band, news website, an e-commerce of a person that sells "bolinhos de bacalhau".
-With this i chose news website, and to add a little humor i divided my website in 2 phases:
+With this i choose news website, and to add a little humor i divided my website in 2 phases:
 -News - users could get the latest info in some influencers;
 -Gossip - useres could share storys and save them in a table, so other users could see;
 
