@@ -1,8 +1,10 @@
-# React + Vite
+# ParaTuVeres
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ParaTuVeres was a project developed in a course Web & Mobile Developer, in Cesae - Porto.
+It was suggested that we developed an website of one of the following themes: kids band, news website, an e-commerce of a person that sells "bolinhos de bacalhau".
+With this i chose news website, and to add a little humor i divided my website in 2 phases:
+-News - users could get the latest info in some influencers;
+-Gossip - useres could share storys and save them in a table, so other users could see;
 
-Currently, two official plugins are available:
+Regarding structure, this website, was developed using react (installed with ViteJs), used bootstrap for the content, and for editing pictures (in this case i made the background image) i used Adobe Photoshop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
