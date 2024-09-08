@@ -76,7 +76,7 @@ export const Home = () => {
                   <img className="card-img-top" src={cartao1Img} alt="Card image cap" />
                   <div className="card-body">
                     <p className="card-text">Karoline Lima se pronuncia nas redes sociais após Eder Militão pedir guarda unilateral da filha</p>
-                    <a className="btn btn-outline-dark">Ver mais</a>
+                    <a href="/news1" className="btn btn-outline-dark">Ver mais</a>
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export const Home = () => {
                   <img className="card-img-top" src={cartao2Img} alt="Card image cap" />
                   <div className="card-body">
                     <p className="card-text">Graciele e Zezé revelam nomes escolhidos para o bebê</p>
-                    <a className="btn btn-outline-dark">Ver mais</a>
+                    <a href="/news2" className="btn btn-outline-dark">Ver mais</a>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export const Home = () => {
                   <img className="card-img-top" src={cartao3Img} alt="Card image cap" />
                   <div className="card-body">
                     <p className="card-text">Fernanda Garay anuncia gravidez próximo aos jogos olímpicos de paris</p>
-                    <a className="btn btn-outline-dark">Ver mais</a>
+                    <a href="/news3" className="btn btn-outline-dark">Ver mais</a>
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao4Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Rica! Saiba o valor do look de Mavie para ir ao instituto de Neymar</p>
-                      <a className="btn btn-outline-dark">Ver mais</a>
+                      <a href="/news4" className="btn btn-outline-dark">Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao5Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Finalmente! Ouça a verdadeira voz de Maya Massafera após a transição</p>
-                      <a className="btn btn-outline-dark">Ver mais</a>
+                      <a href="/news5" className="btn btn-outline-dark">Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao6Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Influenciador promete gasolina de graça e causa confusão em Minas Gerais</p>
-                      <a className="btn btn-outline-dark" >Ver mais</a>
+                      <a href="/news6" className="btn btn-outline-dark" >Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao7Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Nicole Bahls é perseguida por sua vaca e diverte seguidores: 'Para, Anitta'</p>
-                      <a className="btn btn-outline-dark" >Ver mais</a>
+                      <a href="/news7" className="btn btn-outline-dark" >Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao8Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Hugh Jackman e Ryan Reynolds participam do Podpah e elogiam brasileiros: 'Sabem viver'</p>
-                      <a className="btn btn-outline-dark">Ver mais</a>
+                      <a href="/news8" className="btn btn-outline-dark">Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export const Home = () => {
                     <img className="card-img-top" src={cartao9Img} alt="Card image cap" />
                     <div className="card-body">
                       <p className="card-text">Marina Ruy Barbosa chama atenção por aliança de noivado milionária em lançamento de novo livro de Aguinaldo Silva. Fotos!</p>
-                      <a className="btn btn-outline-dark" >Ver mais</a>
+                      <a href="/news9" className="btn btn-outline-dark" >Ver mais</a>
                     </div>
                   </div>
                 </div>
@@ -231,13 +231,13 @@ export const Home = () => {
 
               <div className="row mt-2">
                 <div className="col">
-                  <a className="btn btn-outline-light">Escrever uma história</a>
+                  <a onClick={()=>navegacao("formulario")}  className="btn btn-outline-light">Escrever uma história</a>
                 </div>
                 <div className="col">
-                  <a className="btn btn-outline-light">Atualizar tabela</a>
+                  <a onClick={recarregarWindow} className="btn btn-outline-light">Atualizar tabela</a>
                 </div>
                 <div className="col">
-                  <a className="btn btn-outline-light">Voltar</a>
+                  <a onClick={()=>navegacao("noticias")} className="btn btn-outline-light">Voltar</a>
                 </div>
               </div>
 

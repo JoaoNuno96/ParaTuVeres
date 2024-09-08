@@ -7,6 +7,17 @@ body{
     margin: 0 auto
 }
 
+#containerFirst
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#line
+{
+  border: 1px solid #FFF;
+}
+
 @media only screen and (min-width: 1440px) {
     
     footer{
