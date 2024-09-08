@@ -4,7 +4,7 @@ import "./contacts.style.css";
 
 export const Contacts = () => {
     return (
-      <div>
+      <div id="first">
          {/* <!-- CONTAINER INICIO --> */}
         <div id="firstContainer" className="container" >
           <div className="row">
