@@ -2,15 +2,26 @@
 import React from "react";
 import "/src/main/news/news.style.css";
 import {news} from "/src/assets/mjs/news.mjs";
+import {img1} from "/src/assets/images/cartao1.png";
+import {img2} from "/src/assets/images/cartao2.jpg";
+import {img3} from "/src/assets/images/cartao3.png";
+import {img4} from "/src/assets/images/cartao4.png";
+import {img5} from "/src/assets/images/cartao5.png";
 
 export const News = (state) => {
 
   var id = state.id;
-
   var titulo = news[id].titulo;
   var texto = news[id].texto;
-  var image = news[id].image;
+  var image;
   var linkExterno = news[id].linkExterno;
+
+  if(id == "2")
+  {
+    image = img2;
+  }
+
+
 
 
     return (
