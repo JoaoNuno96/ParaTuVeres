@@ -76,7 +76,7 @@ export const Home = () => {
                   <img className="card-img-top" src={cartao1Img} alt="Card image cap" />
                   <div className="card-body">
                     <p className="card-text">Karoline Lima se pronuncia nas redes sociais após Eder Militão pedir guarda unilateral da filha</p>
-                    <a href="/news1" className="btn btn-outline-dark">Ver mais</a>
+                    <a href="https://www.google.com/" className="btn btn-outline-dark">Ver mais</a>
                   </div>
                 </div>
               </div>
