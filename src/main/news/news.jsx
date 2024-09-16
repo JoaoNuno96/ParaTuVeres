@@ -12,63 +12,63 @@ export const News = (state) => {
   var image;
   var linkExterno;
 
-  if(id == 1)
+  if(id == "1")
   {
     titulo = news1.titulo;
     texto = news1.texto;
     image = news1.image;
     linkExterno = news1.linkExterno;
   }
-  else if(id == 2)
+  else if(id == "2")
   {
     titulo = news2.titulo;
     texto = news2.texto;
     image = news2.image;
     linkExterno = news2.linkExterno;
   }
-  else if(id == 3)
+  else if(id == "3")
   {
     titulo = news3.titulo;
     texto = news3.texto;
     image = news3.image;
     linkExterno = news3.linkExterno;
   }
-  else if(id == 4)
+  else if(id == "4")
   {
     titulo = news4.titulo;
     texto = news4.texto;
     image = news4.image;
     linkExterno = news4.linkExterno;
   }
-  else if(id == 5)
+  else if(id == "5")
   {
     titulo = news5.titulo;
     texto = news5.texto;
     image = news5.image;
     linkExterno = news5.linkExterno;
   }
-  else if(id == 6)
+  else if(id == "6")
   {
     titulo = news6.titulo;
     texto = news6.texto;
     image = news6.image;
     linkExterno = news6.linkExterno;
   }
-  else if(id == 7)
+  else if(id == "7")
   {
     titulo = news7.titulo;
     texto = news7.texto;
     image = news7.image;
     linkExterno = news7.linkExterno;
   }
-  else if(id == 8)
+  else if(id == "8")
   {
     titulo = news8.titulo;
     texto = news8.texto;
     image = news8.image;
     linkExterno = news8.linkExterno;
   }
-  else if(id == 9)
+  else if(id == "9")
   {
     titulo = news9.titulo;
     texto = news9.texto;
