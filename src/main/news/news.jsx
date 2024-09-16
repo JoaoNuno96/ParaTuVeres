@@ -3,7 +3,7 @@ import React from "react";
 import "/src/main/news/news.style.css";
 import {news} from "/src/assets/mjs/news.mjs";
 import {img1} from "/src/assets/images/cartao1.png";
-import {img2} from "/src/assets/images/cartao2.jpg";
+import img2 from "/src/assets/images/cartao2.jpg";
 import {img3} from "/src/assets/images/cartao3.png";
 import {img4} from "/src/assets/images/cartao4.png";
 import {img5} from "/src/assets/images/cartao5.png";
@@ -23,7 +23,7 @@ export const News = (state) => {
 
 
 
-
+// 
     return (
       <div>
          {/* <!-- CONTAINER INICIO --> */}
