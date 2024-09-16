@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./news.style.css";
+import "/src/main/news/news.style.css";
 import {news1,news2,news3,news4,news5,news6,news7,news8,news9} from "/src/assets/mjs/news.mjs";
 
 export const News = (state) => {
