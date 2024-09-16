@@ -2,11 +2,15 @@
 import React from "react";
 import "/src/main/news/news.style.css";
 import {news} from "/src/assets/mjs/news.mjs";
-import {img1} from "/src/assets/images/cartao1.png";
+import img1 from "/src/assets/images/cartao1.png";
 import img2 from "/src/assets/images/cartao2.jpg";
-import {img3} from "/src/assets/images/cartao3.png";
-import {img4} from "/src/assets/images/cartao4.png";
-import {img5} from "/src/assets/images/cartao5.png";
+import img3 from "/src/assets/images/cartao3.png";
+import img4 from "/src/assets/images/cartao4.png";
+import img5 from "/src/assets/images/cartao5.png";
+import img6 from "/src/assets/images/cartao6.png";
+import img7 from "/src/assets/images/cartao7.png";
+import img8 from "/src/assets/images/cartao8.png";
+import img9 from "/src/assets/images/cartao9.png";
 
 export const News = (state) => {
 
@@ -16,12 +20,43 @@ export const News = (state) => {
   var image;
   var linkExterno = news[id].linkExterno;
 
-  if(id == "2")
+  if(id == "1")
+  {
+    image = img1;
+  }
+  else if(id == "2")
   {
     image = img2;
   }
-
-
+  else if(id == "3")
+  {
+    image = img3;
+  }
+  else if(id == "4")
+  {
+    image = img4;
+  }
+  else if(id == "5")
+  {
+    image = img5;
+  }
+  else if(id == "6")
+  {
+    image = img6;
+  }
+  else if(id == "7")
+  {
+    image = img7;
+  }
+  else if(id == "8")
+  {
+    image = img8;
+  }
+  else if(id == "9")
+  {
+    image = img9;
+  }
+  
 
 // 
     return (
