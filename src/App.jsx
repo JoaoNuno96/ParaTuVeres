@@ -17,7 +17,7 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />}/>
-                        {/* <Route path="/news1" element={<News id="1" />}/>
+                        <Route path="/news1" element={<News id="1" />}/>
                         <Route path="/news2" element={<News id="2" />}/>
                         <Route path="/news3" element={<News id="3" />}/>
                         <Route path="/news4" element={<News id="4" />}/>
@@ -25,8 +25,8 @@ function App() {
                         <Route path="/news6" element={<News id="6" />}/>
                         <Route path="/news7" element={<News id="7" />}/>
                         <Route path="/news8" element={<News id="8" />}/>
-                        <Route path="/news9" element={<News id="9" />}/> */}
-                        <Route path="/contact" element={<Contacts />}/>
+                        <Route path="/news9" element={<News id="9" />}/>
+                        <Route path="/contacts" element={<Contacts />}/>
                     </Routes>
                 </BrowserRouter>
             </div>

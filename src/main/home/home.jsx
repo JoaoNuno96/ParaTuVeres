@@ -292,7 +292,7 @@ export const Home = () => {
                 <p className="card-text text-light">Para mais informações clique na ligação abaixo.</p>
                 <div className="row">
                   <div className="col">
-                    <a href="/contact" className="btn btn-outline-light mb-5">Contactos</a>
+                    <a href="/contacts" className="btn btn-outline-light mb-5">Contactos</a>
                   </div>
                 </div>
                 
