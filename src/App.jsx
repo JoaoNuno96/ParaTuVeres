@@ -18,7 +18,7 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />}/>
-                        <Route path="/news1" element={<News id="1" />}/>
+                        <Route path="/news1" element={console.log("<News id='1' />")}/>
                         <Route path="/news2" element={<News id="2" />}/>
                         <Route path="/news3" element={<News id="3" />}/>
                         <Route path="/news4" element={<News id="4" />}/>
