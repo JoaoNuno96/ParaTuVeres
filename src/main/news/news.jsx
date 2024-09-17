@@ -20,39 +20,39 @@ export const News = (state) => {
   var image;
   var linkExterno = news[id].linkExterno;
 
-  if(id == "1")
+  if(id == "0")
   {
     image = img1;
   }
-  else if(id == "2")
+  else if(id == "1")
   {
     image = img2;
   }
-  else if(id == "3")
+  else if(id == "2")
   {
     image = img3;
   }
-  else if(id == "4")
+  else if(id == "3")
   {
     image = img4;
   }
-  else if(id == "5")
+  else if(id == "4")
   {
     image = img5;
   }
-  else if(id == "6")
+  else if(id == "5")
   {
     image = img6;
   }
-  else if(id == "7")
+  else if(id == "6")
   {
     image = img7;
   }
-  else if(id == "8")
+  else if(id == "7")
   {
     image = img8;
   }
-  else if(id == "9")
+  else if(id == "8")
   {
     image = img9;
   }
