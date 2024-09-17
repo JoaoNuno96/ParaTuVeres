@@ -14,7 +14,7 @@ import img9 from "/src/assets/images/cartao9.png";
 
 export const News = (state) => {
 
-  var id = state.id;
+  var id = state.id - 1;
   var titulo = news[id].titulo;
   var texto = news[id].texto;
   var image;
